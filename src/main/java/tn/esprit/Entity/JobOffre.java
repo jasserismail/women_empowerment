@@ -18,6 +18,7 @@ public class JobOffre implements Serializable  {
 
 	private static final long serialVersionUID = 1L;
 // wiiiiw
+	///wiiiw
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 
