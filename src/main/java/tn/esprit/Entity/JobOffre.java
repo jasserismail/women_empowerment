@@ -17,7 +17,7 @@ import javax.persistence.*;
 public class JobOffre implements Serializable  {
 
 	private static final long serialVersionUID = 1L;
-
+// wiiiiw
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY) 
 
