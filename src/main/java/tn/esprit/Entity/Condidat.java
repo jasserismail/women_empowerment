@@ -19,6 +19,7 @@ public class Condidat implements Serializable   {
 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Id
+	@Column(name = "condidat_id", nullable = false)
 	private Long idCondidat ;
 	private  String firstName ;
 	private String lastName ;
@@ -33,7 +34,7 @@ public class Condidat implements Serializable   {
 	private String adress ;
 	private String status = Status.Waiting.toString();
 	@ManyToOne (fetch = FetchType.EAGER)
-	@JoinColumn(name="idOffre", nullable=false)
+	@JoinColumn(name="idOffre")
 	private JobOffre jobOffre ;
 
 }
